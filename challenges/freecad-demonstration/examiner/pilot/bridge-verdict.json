@@ -1,0 +1,261 @@
+{
+  "schema": "independent-examiner-a-final-v1",
+  "verdict": "pass",
+  "completed_at": "2026-11-20T02:17:58.714544+08:00",
+  "source": {
+    "model": "bridge.FCStd",
+    "model_sha256": "ead9a997dfd23b555250c67d66370fd79e2aef23a1c90fe377def0b0c4e39782",
+    "gui_trace_sha256": "292df1d36dd391a9945f8ff6bd281e0bf51a9a76bfe1e4b04422ab3347a3c527",
+    "save_trace_sha256": "d68c9c2398518c53600d85a9559360ddcd24a3a950998141012d97d990660e39",
+    "inputs_scope": "仅冻结bridge.FCStd、A_gui与A_save原始轨迹/图片/_meta，公开题面和inspect工具。未读考生自检、聊天或生成器。"
+  },
+  "checks": [
+    {
+      "item": "初始单实体及题面几何",
+      "verdict": "pass",
+      "evidence": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 59861.946710584656,
+        "extra_mm3": 0.0,
+        "missing_mm3": 0.0,
+        "matches": true
+      },
+      "reason": "原文件独立打开后逐对象touch并重算，无错误状态。与独立构造题面布尔体比较，额外和缺失体积均0。"
+    },
+    {
+      "item": "可编辑的GUI特征结构",
+      "verdict": "pass",
+      "reason": "Body内四个PartDesign::AdditiveBox对应底板、左右柱、桥板，其后Sketch和Pad；题面未规定四个方体必须由草图Pad生成，该原生GUI建法可接受。",
+      "dimensions": [
+        {
+          "name": "Box",
+          "type": "PartDesign::AdditiveBox",
+          "length": 80.0,
+          "width": 50.0,
+          "height": 10.0,
+          "position": [
+            -40.0,
+            -25.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Box001",
+          "type": "PartDesign::AdditiveBox",
+          "length": 10.0,
+          "width": 20.0,
+          "height": 20.0,
+          "position": [
+            -35.0,
+            -10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "Box002",
+          "type": "PartDesign::AdditiveBox",
+          "length": 10.0,
+          "width": 20.0,
+          "height": 20.0,
+          "position": [
+            25.0,
+            -10.0,
+            10.0
+          ]
+        },
+        {
+          "name": "Box003",
+          "type": "PartDesign::AdditiveBox",
+          "length": 80.0,
+          "width": 20.0,
+          "height": 6.0,
+          "position": [
+            -40.0,
+            -10.0,
+            30.0
+          ]
+        }
+      ]
+    },
+    {
+      "item": "XY原点直径12草图",
+      "verdict": "pass",
+      "evidence": {
+        "type": "UpToFace",
+        "face": "(<PartDesign::AdditiveBox>, ['Face12'])",
+        "profile": "(<Sketcher::SketchObject>, [''])",
+        "sketch_placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]",
+        "geometry": [
+          "Circle (Radius : 6, Position : (0, 0, 0), Direction : (0, 0, 1))"
+        ]
+      },
+      "steps": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "reason": "前图95选择XY-plane；动作99点击原点、100输入12并回车；frame100显示全约束Ø12圆，模型回读R6圆且草图位姿为原点。"
+    },
+    {
+      "item": "Pad终止于桥底",
+      "verdict": "pass",
+      "steps": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "reason": "103展开Pad类型、104选择Up to face，107点击桥底，frame107字段Box003:Face12并在Z30面高亮，108确认。模型UpToFace与该面平面Z30及圆心覆盖关系由公开工具验证。"
+    },
+    {
+      "item": "桥板下表面独立位移随动",
+      "verdict": "pass",
+      "evidence": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 58835.752039526196,
+        "extra_mm3": 0.0,
+        "missing_mm3": 0.0,
+        "matches": true,
+        "states": {
+          "Box003": [
+            "Up-to-date"
+          ],
+          "Pad": [
+            "Up-to-date"
+          ]
+        }
+      },
+      "reason": "在内存重开文档将桥板Z从30降为28，保持上游桥板与原柱重叠。中央柱跟随桥底降至28；与独立目标形体差体积0，Box003和Pad均Up-to-date。"
+    },
+    {
+      "item": "两支柱及桥板升高5毫米随动",
+      "verdict": "pass",
+      "evidence": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 62427.43338823081,
+        "extra_mm3": 0.0,
+        "missing_mm3": 0.0,
+        "matches": true
+      },
+      "reason": "两侧AdditiveBox Height20改25，桥板底Z30改35，中央柱随UpToFace升至35；与独立expected(5)比较extra=missing=0，单实体。编辑后恢复原值再比较通过，未保存任何检验改动。"
+    },
+    {
+      "item": "额外可见实体",
+      "verdict": "pass",
+      "reason": "无额外可见独立Shape实体。Body和其Tip Pad为同一显示结果；Origin子基准对象虽局部Visibility为true，其Origin父项隐藏且成品帧无额外实体。四个历史Box及Sketch隐藏。最终录制图与保存后图均只显示所求桥架。"
+    },
+    {
+      "item": "建模113步与N+1",
+      "verdict": "pass",
+      "evidence": {
+        "steps": 113,
+        "frame_count": 114,
+        "frame_sizes": [
+          [
+            1707,
+            1067
+          ]
+        ],
+        "actions": {
+          "hotkey": 24,
+          "click": 42,
+          "type": 2,
+          "double_click": 20,
+          "type_and_enter": 21,
+          "right_click": 1,
+          "scroll": 3
+        },
+        "sequence_errors": []
+      },
+      "reason": "113动作索引连续，114张PNG均存在、尺寸一致且引用顺序无误。全览0至113帧，模型由起始空文档逐渐生成，录制末尾尚为Unnamed带星号，建模段没有保存动作。"
+    },
+    {
+      "item": "独立保存记录",
+      "verdict": "pass",
+      "evidence": {
+        "steps": 4,
+        "frame_count": 5,
+        "frame_sizes": [
+          [
+            1707,
+            1067
+          ]
+        ],
+        "actions": {
+          "hotkey": 2,
+          "click": 1,
+          "type_and_enter": 1
+        },
+        "sequence_errors": []
+      },
+      "steps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "A_save的Ctrl+s打开另存框，点击文件名、Ctrl+a、输入绝对bridge.FCStd路径并回车；frame4文件树及文档标签改为bridge且星号消失，_meta.window_modified=false。冻结模型能独立重开并与成品结构对应。"
+    },
+    {
+      "item": "GUI来源及动作可核验性",
+      "verdict": "pass",
+      "reason": "A_gui/_meta与A_save/_meta为同一FreeCAD PID及隔离桌面Qt事件录制；动作、前图与阶段变化一致。没有从外部直接注入模型的画面或证据；此结论基于提交的真实原始轨迹与模型一致性，未审计工具源码或宿主所有进程。"
+    }
+  ],
+  "gui_stage_evidence": [
+    {
+      "steps": "1-3",
+      "reason": "Ctrl+n从起始页建立空文档，Part Design建立Body及AdditiveBox。"
+    },
+    {
+      "steps": "4-17",
+      "reason": "早期任务框尝试输入80和50，后在属性编辑器明确重设Length80、Width50；frame14和17显示尺寸更新，没有把初次不生效输入当成最终尺寸。"
+    },
+    {
+      "steps": "20-27",
+      "reason": "展开Placement，X=-40及Y=-25，底板居中。"
+    },
+    {
+      "steps": "29-48",
+      "reason": "GUI新建Box001，属性设Width20、Height20、X=-35、Y=-10、Z10，形成左方柱。"
+    },
+    {
+      "steps": "49-68",
+      "reason": "GUI新建Box002，Width20、Height20、X25、Y-10、Z10，形成右方柱。"
+    },
+    {
+      "steps": "69-91",
+      "reason": "GUI新建Box003，Length80、Width20、Height6、X-40、Y-10、Z30，形成桥板。"
+    },
+    {
+      "steps": "94-101",
+      "reason": "XY草图、隐藏遮挡桥架、原点圆心、输入Ø12并回车、Close。"
+    },
+    {
+      "steps": "102-108",
+      "reason": "Pad选择Up to face，调整视角露出桥下表面，选Box003.Face12并确认。"
+    },
+    {
+      "steps": "109-113",
+      "reason": "最后通过菜单及标准视图调整显示，frame113完整成品。"
+    }
+  ],
+  "coverage": {
+    "automated": "两段全部动作/路径/N+1/PNG头检查；模型独立重开重算、尺寸/圆/终止面读取、布尔差体积、两次有效扰动及恢复。",
+    "visual": "建模114帧全部联图概览；原尺寸重点查看95、99、100、103、104、106、107、113；保存0至4逐张原尺寸查看。没有对113步逐帧做像素级输入焦点审计。",
+    "key_limits": "单独将桥板上移5而不延长侧柱会使上游AdditiveBox暂时脱离支柱，曾得到保留旧输出的无效编辑路径；该次不计随动通过。换成保持连接的桥板下移2和支柱/桥板联动上移5，两次独立几何检查均通过。没有要求侧柱修改必须自动驱动桥板；题面要求的是中央Pad随桥底。"
+  },
+  "unchanged_source_model": true,
+  "self_check_read": false
+}

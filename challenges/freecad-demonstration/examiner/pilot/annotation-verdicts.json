@@ -1,0 +1,1178 @@
+{
+  "B": {
+    "counts": {
+      "correct": 56,
+      "wrong": 0,
+      "missing": 0,
+      "unexpected": 0
+    },
+    "items": [
+      {
+        "step": 1,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Parametric Body起始卡片，提交框覆盖实际落点且定位同一目标。完整Parametric Body卡片是可点击的单一操作区域，低IoU来自参考只框卡片中一点。",
+        "iou": 0.0102,
+        "point": [
+          417,
+          312
+        ]
+      },
+      {
+        "step": 2,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见New Sketch按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6929,
+        "point": [
+          1590,
+          427
+        ]
+      },
+      {
+        "step": 3,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见XY-plane列表行，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.8989,
+        "point": [
+          1630,
+          475
+        ]
+      },
+      {
+        "step": 4,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见OK按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.9144,
+        "point": [
+          1775,
+          394
+        ]
+      },
+      {
+        "step": 5,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见圆工具按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.5919,
+        "point": [
+          292,
+          189
+        ]
+      },
+      {
+        "step": 6,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见坐标原点，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6173,
+        "point": [
+          1093,
+          613
+        ]
+      },
+      {
+        "step": 9,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Close按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.7465,
+        "point": [
+          1718,
+          394
+        ]
+      },
+      {
+        "step": 10,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Pad操作项，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.5769,
+        "point": [
+          1567,
+          459
+        ]
+      },
+      {
+        "step": 13,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见OK按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.9144,
+        "point": [
+          1775,
+          394
+        ]
+      },
+      {
+        "step": 14,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见圆盘顶面，提交框覆盖实际落点且定位同一目标。框贴合圆盘顶面的外接矩形；虽比参考点框大，仍是单一实际几何目标。",
+        "iou": 0.0006,
+        "point": [
+          1170,
+          480
+        ]
+      },
+      {
+        "step": 15,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见New Sketch工具栏按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.7034,
+        "point": [
+          317,
+          150
+        ]
+      },
+      {
+        "step": 16,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见圆工具按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.5919,
+        "point": [
+          292,
+          189
+        ]
+      },
+      {
+        "step": 17,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见圆心，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.8622,
+        "point": [
+          1319,
+          613
+        ]
+      },
+      {
+        "step": 20,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见直径尺寸标签，提交框覆盖实际落点且定位同一目标。包含直径尺寸标签整体，未把相邻独立控件一并作为目标。",
+        "iou": 0.1444,
+        "point": [
+          1316,
+          613
+        ]
+      },
+      {
+        "step": 21,
+        "role": "start",
+        "verdict": "pass",
+        "reason": "前图可见直径尺寸标签拖动起点，提交框覆盖实际落点且定位同一目标。拖动起点标签与终点位置分别计分；终点小框覆盖真实落点。",
+        "iou": 0.3011,
+        "point": [
+          1316,
+          613
+        ]
+      },
+      {
+        "step": 21,
+        "role": "end",
+        "verdict": "pass",
+        "reason": "前图可见标注拖动终点，提交框覆盖实际落点且定位同一目标。拖动起点标签与终点位置分别计分；终点小框覆盖真实落点。",
+        "iou": 0.5208,
+        "point": [
+          1390,
+          725
+        ]
+      },
+      {
+        "step": 22,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见约束全选复选框，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6782,
+        "point": [
+          1545,
+          560
+        ]
+      },
+      {
+        "step": 23,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Constraint1复选框，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6782,
+        "point": [
+          1546,
+          593
+        ]
+      },
+      {
+        "step": 24,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见圆心，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.8622,
+        "point": [
+          1316,
+          613
+        ]
+      },
+      {
+        "step": 25,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见尺寸工具下拉箭头，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.3788,
+        "point": [
+          607,
+          189
+        ]
+      },
+      {
+        "step": 26,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Horizontal Dimension菜单行，提交框覆盖实际落点且定位同一目标。框住完整Horizontal Dimension一行，无上下相邻菜单项。",
+        "iou": 0.0306,
+        "point": [
+          692,
+          246
+        ]
+      },
+      {
+        "step": 27,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见空白几何点，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6782,
+        "point": [
+          580,
+          735
+        ]
+      },
+      {
+        "step": 28,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见圆心，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.8622,
+        "point": [
+          1316,
+          613
+        ]
+      },
+      {
+        "step": 29,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见尺寸工具下拉箭头，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.3788,
+        "point": [
+          607,
+          189
+        ]
+      },
+      {
+        "step": 30,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Horizontal Dimension菜单行，提交框覆盖实际落点且定位同一目标。框住完整Horizontal Dimension一行，非只需框其中落点。",
+        "iou": 0.0306,
+        "point": [
+          692,
+          246
+        ]
+      },
+      {
+        "step": 33,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Insert Length的OK按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.0711,
+        "point": [
+          1023,
+          622
+        ]
+      },
+      {
+        "step": 34,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Close按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.7465,
+        "point": [
+          1718,
+          394
+        ]
+      },
+      {
+        "step": 35,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Pocket操作项，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.3759,
+        "point": [
+          1577,
+          491
+        ]
+      },
+      {
+        "step": 36,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Type下拉框，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.7145,
+        "point": [
+          1888,
+          516
+        ]
+      },
+      {
+        "step": 37,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Through all菜单行，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6808,
+        "point": [
+          1794,
+          543
+        ]
+      },
+      {
+        "step": 38,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见OK按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.9144,
+        "point": [
+          1775,
+          394
+        ]
+      },
+      {
+        "step": 39,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Origin展开箭头，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.8125,
+        "point": [
+          30,
+          279
+        ]
+      },
+      {
+        "step": 40,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图Z-axis行的图标与名称均位于新框(73,329,65,19)内，实际点(115,339)被覆盖，不涉及上方Y轴或下方XY面。",
+        "iou": 0.5047,
+        "point": [
+          115,
+          339
+        ]
+      },
+      {
+        "step": 41,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见基准工具下拉箭头，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.3676,
+        "point": [
+          82,
+          150
+        ]
+      },
+      {
+        "step": 42,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Datum Line菜单项，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.3563,
+        "point": [
+          113,
+          233
+        ]
+      },
+      {
+        "step": 43,
+        "role": "start",
+        "verdict": "pass",
+        "reason": "放大前图step_042右侧滚动条：上箭头约416至429，滑块为429至908，下方灰色轨道为908至1003。新框(1906,429,14,479)贴合实际滑块，不是整个轨道，覆盖真实起点(1912,797)。",
+        "iou": 0.0496,
+        "point": [
+          1912,
+          797
+        ]
+      },
+      {
+        "step": 43,
+        "role": "end",
+        "verdict": "pass",
+        "reason": "同一动作前图下方灰色轨道为908至1003，新框(1906,908,14,95)仅框下方目标轨道区域，覆盖终点(1912,984)，与起点滑块明确区分，未合并箭头。",
+        "iou": 0.2397,
+        "point": [
+          1912,
+          984
+        ]
+      },
+      {
+        "step": 44,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见OK按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.9144,
+        "point": [
+          1775,
+          394
+        ]
+      },
+      {
+        "step": 45,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见DatumLine树行，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6718,
+        "point": [
+          114,
+          479
+        ]
+      },
+      {
+        "step": 46,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Pocket树行，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.5517,
+        "point": [
+          112,
+          459
+        ]
+      },
+      {
+        "step": 47,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Polar Pattern按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6552,
+        "point": [
+          780,
+          189
+        ]
+      },
+      {
+        "step": 48,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "新框完整覆盖Axis组合框(1574,699,318,25)，含文字及下拉箭头实际点(1878,711)，未并入下方Mode组合框。",
+        "iou": 0.1175,
+        "point": [
+          1878,
+          711
+        ]
+      },
+      {
+        "step": 49,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Select reference选项，提交框覆盖实际落点且定位同一目标。框住同一Select reference列表项。",
+        "iou": 0.1935,
+        "point": [
+          1680,
+          816
+        ]
+      },
+      {
+        "step": 50,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见DatumLine树行，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6718,
+        "point": [
+          114,
+          479
+        ]
+      },
+      {
+        "step": 51,
+        "role": "start",
+        "verdict": "pass",
+        "reason": "前图可见Occurrences输入框拖动起点，提交框覆盖实际落点且定位同一目标。两端均处于同一个Occurrences数值输入框，整框方法有效，起终点独立计分。",
+        "iou": 0.0632,
+        "point": [
+          1740,
+          809
+        ]
+      },
+      {
+        "step": 51,
+        "role": "end",
+        "verdict": "pass",
+        "reason": "前图可见Occurrences输入框拖动终点，提交框覆盖实际落点且定位同一目标。两端均处于同一个Occurrences数值输入框，整框方法有效，起终点独立计分。",
+        "iou": 0.0342,
+        "point": [
+          1637,
+          809
+        ]
+      },
+      {
+        "step": 54,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Show final result复选框，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.6782,
+        "point": [
+          1545,
+          944
+        ]
+      },
+      {
+        "step": 55,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见OK按钮，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.9144,
+        "point": [
+          1775,
+          394
+        ]
+      },
+      {
+        "step": 56,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见DatumLine可见性图标，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.8711,
+        "point": [
+          47,
+          479
+        ]
+      },
+      {
+        "step": 57,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "新框(63,488,110,21)覆盖PolarPattern图标及名称，实际点(125,499)位于同一树行，与DatumLine行分开。",
+        "iou": 0.5763,
+        "point": [
+          125,
+          499
+        ]
+      },
+      {
+        "step": 58,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见工作台选择框，提交框覆盖实际落点且定位同一目标。完整工作台选择控件与参考仅框文字的方式不同，操作区域相同。",
+        "iou": 0.4313,
+        "point": [
+          492,
+          110
+        ]
+      },
+      {
+        "step": 59,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "新框(290,241,215,26)覆盖工作台列表的Part行和实际点(331,254)，未合并上方Part Design或下方Points。",
+        "iou": 0.0351,
+        "point": [
+          331,
+          254
+        ]
+      },
+      {
+        "step": 60,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Part主菜单，提交框覆盖实际落点且定位同一目标。边缘与参考不同但未合并相邻独立目标。",
+        "iou": 0.7557,
+        "point": [
+          302,
+          79
+        ]
+      },
+      {
+        "step": 61,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "新框(280,930,206,26)覆盖Check Geometry菜单整行及实际点(373,943)，排除上方Attachment与下方Defeaturing。",
+        "iou": 0.0366,
+        "point": [
+          373,
+          943
+        ]
+      },
+      {
+        "step": 62,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "前图可见Run check按钮，提交框覆盖实际落点且定位同一目标。原图Run check实际按钮约从1827开始，提交框1825起合理，未把Close一起框入。",
+        "iou": 0.538,
+        "point": [
+          1872,
+          994
+        ]
+      },
+      {
+        "step": 63,
+        "role": "click",
+        "verdict": "pass",
+        "reason": "新框(1729,981,97,26)贴合Close按钮和实际点(1780,994)，较初版已排除Results边缘，也未包含Run check。",
+        "iou": 0.6344,
+        "point": [
+          1780,
+          994
+        ]
+      }
+    ]
+  },
+  "C": {
+    "counts": {
+      "可用": 90,
+      "明确错误": 0,
+      "描述不足": 0,
+      "缺失": 0
+    },
+    "items": [
+      {
+        "step": 1,
+        "verdict": "可用",
+        "reason": "首步目标及新建图标正确，无虚构历史",
+        "evidence_frame": "C/frames/step_000.png"
+      },
+      {
+        "step": 2,
+        "verdict": "可用",
+        "reason": "空文档与Part工作台选择正确",
+        "evidence_frame": "C/frames/step_001.png"
+      },
+      {
+        "step": 3,
+        "verdict": "可用",
+        "reason": "Part Design列表项正确",
+        "evidence_frame": "C/frames/step_002.png"
+      },
+      {
+        "step": 4,
+        "verdict": "可用",
+        "reason": "New Body创建底板主体正确",
+        "evidence_frame": "C/frames/step_003.png"
+      },
+      {
+        "step": 5,
+        "verdict": "可用",
+        "reason": "活动Body中新建草图正确",
+        "evidence_frame": "C/frames/step_004.png"
+      },
+      {
+        "step": 6,
+        "verdict": "可用",
+        "reason": "XY面对象及点击正确",
+        "evidence_frame": "C/frames/step_005.png"
+      },
+      {
+        "step": 7,
+        "verdict": "可用",
+        "reason": "空XY草图启用中心矩形正确",
+        "evidence_frame": "C/frames/step_006.png"
+      },
+      {
+        "step": 8,
+        "verdict": "可用",
+        "reason": "Center,width,height与原点点击正确",
+        "evidence_frame": "C/frames/step_007.png"
+      },
+      {
+        "step": 9,
+        "verdict": "可用",
+        "reason": "输入80及回车、毫米宽度完整",
+        "evidence_frame": "C/frames/step_008.png"
+      },
+      {
+        "step": 10,
+        "verdict": "可用",
+        "reason": "输入50及回车、另一边完整",
+        "evidence_frame": "C/frames/step_009.png"
+      },
+      {
+        "step": 11,
+        "verdict": "可用",
+        "reason": "全约束矩形及Close正确",
+        "evidence_frame": "C/frames/step_010.png"
+      },
+      {
+        "step": 12,
+        "verdict": "可用",
+        "reason": "Sketch选中后Pad正确",
+        "evidence_frame": "C/frames/step_011.png"
+      },
+      {
+        "step": 13,
+        "verdict": "可用",
+        "reason": "默认10毫米及仅回车确认完整",
+        "evidence_frame": "C/frames/step_012.png"
+      },
+      {
+        "step": 14,
+        "verdict": "可用",
+        "reason": "底板完成后创建独立Body正确",
+        "evidence_frame": "C/frames/step_013.png"
+      },
+      {
+        "step": 15,
+        "verdict": "可用",
+        "reason": "Body001活动且底板显示，隐藏旧Body正确",
+        "evidence_frame": "C/frames/step_014.png"
+      },
+      {
+        "step": 16,
+        "verdict": "可用",
+        "reason": "底板隐藏后New Sketch正确",
+        "evidence_frame": "C/frames/step_015.png"
+      },
+      {
+        "step": 17,
+        "verdict": "可用",
+        "reason": "Body001的XY平面正确",
+        "evidence_frame": "C/frames/step_016.png"
+      },
+      {
+        "step": 18,
+        "verdict": "可用",
+        "reason": "空草图启用构造几何正确",
+        "evidence_frame": "C/frames/step_017.png"
+      },
+      {
+        "step": 19,
+        "verdict": "可用",
+        "reason": "构造模式转直线正确",
+        "evidence_frame": "C/frames/step_018.png"
+      },
+      {
+        "step": 20,
+        "verdict": "可用",
+        "reason": "直线起点取原点正确",
+        "evidence_frame": "C/frames/step_019.png"
+      },
+      {
+        "step": 21,
+        "verdict": "可用",
+        "reason": "长度25及回车完整",
+        "evidence_frame": "C/frames/step_020.png"
+      },
+      {
+        "step": 22,
+        "verdict": "可用",
+        "reason": "角度180及回车完整",
+        "evidence_frame": "C/frames/step_021.png"
+      },
+      {
+        "step": 23,
+        "verdict": "可用",
+        "reason": "左向25构造线完成后切回普通几何正确",
+        "evidence_frame": "C/frames/step_022.png"
+      },
+      {
+        "step": 24,
+        "verdict": "可用",
+        "reason": "圆工具及既有定位点正确",
+        "evidence_frame": "C/frames/step_023.png"
+      },
+      {
+        "step": 25,
+        "verdict": "可用",
+        "reason": "左侧端点作为圆心正确",
+        "evidence_frame": "C/frames/step_024.png"
+      },
+      {
+        "step": 26,
+        "verdict": "可用",
+        "reason": "直径18及回车完整",
+        "evidence_frame": "C/frames/step_025.png"
+      },
+      {
+        "step": 27,
+        "verdict": "可用",
+        "reason": "左圆完成后Close正确",
+        "evidence_frame": "C/frames/step_026.png"
+      },
+      {
+        "step": 28,
+        "verdict": "可用",
+        "reason": "Sketch001选中后Pad正确",
+        "evidence_frame": "C/frames/step_027.png"
+      },
+      {
+        "step": 29,
+        "verdict": "可用",
+        "reason": "默认10改22并回车完整",
+        "evidence_frame": "C/frames/step_028.png"
+      },
+      {
+        "step": 30,
+        "verdict": "可用",
+        "reason": "第一柱完成后右击Body001正确",
+        "evidence_frame": "C/frames/step_029.png"
+      },
+      {
+        "step": 31,
+        "verdict": "可用",
+        "reason": "右键菜单Placement正确",
+        "evidence_frame": "C/frames/step_030.png"
+      },
+      {
+        "step": 32,
+        "verdict": "可用",
+        "reason": "先点击Y及后续应改Z的区分正确",
+        "evidence_frame": "C/frames/step_031.png"
+      },
+      {
+        "step": 33,
+        "verdict": "可用",
+        "reason": "从Y转Z并拖选原值正确",
+        "evidence_frame": "C/frames/step_032.png"
+      },
+      {
+        "step": 34,
+        "verdict": "可用",
+        "reason": "仅输入Z位移8，无擅加回车",
+        "evidence_frame": "C/frames/step_033.png"
+      },
+      {
+        "step": 35,
+        "verdict": "可用",
+        "reason": "Z=8后OK确认正确",
+        "evidence_frame": "C/frames/step_034.png"
+      },
+      {
+        "step": 36,
+        "verdict": "可用",
+        "reason": "选中第一柱后点击画布清选正确",
+        "evidence_frame": "C/frames/step_035.png"
+      },
+      {
+        "step": 37,
+        "verdict": "可用",
+        "reason": "清选后New Body建立Body002正确",
+        "evidence_frame": "C/frames/step_036.png"
+      },
+      {
+        "step": 38,
+        "verdict": "可用",
+        "reason": "Body002活动后隐藏Body001正确",
+        "evidence_frame": "C/frames/step_037.png"
+      },
+      {
+        "step": 39,
+        "verdict": "可用",
+        "reason": "两旧体隐藏后在Body002新建草图正确",
+        "evidence_frame": "C/frames/step_038.png"
+      },
+      {
+        "step": 40,
+        "verdict": "可用",
+        "reason": "右柱使用XY面正确",
+        "evidence_frame": "C/frames/step_039.png"
+      },
+      {
+        "step": 41,
+        "verdict": "可用",
+        "reason": "Sketch002启用构造几何正确",
+        "evidence_frame": "C/frames/step_040.png"
+      },
+      {
+        "step": 42,
+        "verdict": "可用",
+        "reason": "构造模式启用直线正确",
+        "evidence_frame": "C/frames/step_041.png"
+      },
+      {
+        "step": 43,
+        "verdict": "可用",
+        "reason": "右定位线起点取原点正确",
+        "evidence_frame": "C/frames/step_042.png"
+      },
+      {
+        "step": 44,
+        "verdict": "可用",
+        "reason": "长度25及回车完整",
+        "evidence_frame": "C/frames/step_043.png"
+      },
+      {
+        "step": 45,
+        "verdict": "可用",
+        "reason": "角度0且仅回车完整",
+        "evidence_frame": "C/frames/step_044.png"
+      },
+      {
+        "step": 46,
+        "verdict": "可用",
+        "reason": "右向25构造线完成切回普通几何正确",
+        "evidence_frame": "C/frames/step_045.png"
+      },
+      {
+        "step": 47,
+        "verdict": "可用",
+        "reason": "启用圆工具正确",
+        "evidence_frame": "C/frames/step_046.png"
+      },
+      {
+        "step": 48,
+        "verdict": "可用",
+        "reason": "右端点取圆心正确",
+        "evidence_frame": "C/frames/step_047.png"
+      },
+      {
+        "step": 49,
+        "verdict": "可用",
+        "reason": "直径18及回车完整",
+        "evidence_frame": "C/frames/step_048.png"
+      },
+      {
+        "step": 50,
+        "verdict": "可用",
+        "reason": "右圆全约束后Close正确",
+        "evidence_frame": "C/frames/step_049.png"
+      },
+      {
+        "step": 51,
+        "verdict": "可用",
+        "reason": "Sketch002选中后Pad正确",
+        "evidence_frame": "C/frames/step_050.png"
+      },
+      {
+        "step": 52,
+        "verdict": "可用",
+        "reason": "默认10改22并回车完整",
+        "evidence_frame": "C/frames/step_051.png"
+      },
+      {
+        "step": 53,
+        "verdict": "可用",
+        "reason": "右击整个Body002正确",
+        "evidence_frame": "C/frames/step_052.png"
+      },
+      {
+        "step": 54,
+        "verdict": "可用",
+        "reason": "Body002菜单Placement正确",
+        "evidence_frame": "C/frames/step_053.png"
+      },
+      {
+        "step": 55,
+        "verdict": "可用",
+        "reason": "Z=0及向左拖选正确",
+        "evidence_frame": "C/frames/step_054.png"
+      },
+      {
+        "step": 56,
+        "verdict": "可用",
+        "reason": "仅输入Z位移8，无擅加回车",
+        "evidence_frame": "C/frames/step_055.png"
+      },
+      {
+        "step": 57,
+        "verdict": "可用",
+        "reason": "Z=8后OK正确",
+        "evidence_frame": "C/frames/step_056.png"
+      },
+      {
+        "step": 58,
+        "verdict": "可用",
+        "reason": "第二柱仍选中，空白画布清选正确",
+        "evidence_frame": "C/frames/step_057.png"
+      },
+      {
+        "step": 59,
+        "verdict": "可用",
+        "reason": "右柱可见、底板隐藏，开主Body可见性正确",
+        "evidence_frame": "C/frames/step_058.png"
+      },
+      {
+        "step": 60,
+        "verdict": "可用",
+        "reason": "底板可见、左柱隐藏，开Body001可见性正确",
+        "evidence_frame": "C/frames/step_059.png"
+      },
+      {
+        "step": 61,
+        "verdict": "可用",
+        "reason": "双击底板Body改活动主体正确",
+        "evidence_frame": "C/frames/step_060.png"
+      },
+      {
+        "step": 62,
+        "verdict": "可用",
+        "reason": "主Body活动且底板选色，Boolean命令正确",
+        "evidence_frame": "C/frames/step_061.png"
+      },
+      {
+        "step": 63,
+        "verdict": "可用",
+        "reason": "Fuse空工具列表，Add Body正确",
+        "evidence_frame": "C/frames/step_062.png"
+      },
+      {
+        "step": 64,
+        "verdict": "可用",
+        "reason": "选择Body001为第一工具正确",
+        "evidence_frame": "C/frames/step_063.png"
+      },
+      {
+        "step": 65,
+        "verdict": "可用",
+        "reason": "Body001绿色预览后OK正确",
+        "evidence_frame": "C/frames/step_064.png"
+      },
+      {
+        "step": 66,
+        "verdict": "可用",
+        "reason": "第一次融合后再次调用Boolean正确",
+        "evidence_frame": "C/frames/step_065.png"
+      },
+      {
+        "step": 67,
+        "verdict": "可用",
+        "reason": "前图step_066弹窗逐字显示Object can only be in a single GeoFeatureGroup，新描述明确同一对象只能属于一个GeoFeatureGroup，画布变暗及点击OK关闭异常均准确；可用。",
+        "evidence_frame": "C/frames/step_066.png"
+      },
+      {
+        "step": 68,
+        "verdict": "可用",
+        "reason": "错误后Boolean001出现且只见右柱，点击树空白正确",
+        "evidence_frame": "C/frames/step_067.png"
+      },
+      {
+        "step": 69,
+        "verdict": "可用",
+        "reason": "选Boolean001名称检查正确",
+        "evidence_frame": "C/frames/step_068.png"
+      },
+      {
+        "step": 70,
+        "verdict": "可用",
+        "reason": "Boolean001选中、右柱唯一实体，空白画布清选正确",
+        "evidence_frame": "C/frames/step_069.png"
+      },
+      {
+        "step": 71,
+        "verdict": "可用",
+        "reason": "主Body仍活动，再次Boolean正确",
+        "evidence_frame": "C/frames/step_070.png"
+      },
+      {
+        "step": 72,
+        "verdict": "可用",
+        "reason": "新Fuse列表为空，Add Body正确",
+        "evidence_frame": "C/frames/step_071.png"
+      },
+      {
+        "step": 73,
+        "verdict": "可用",
+        "reason": "独立Body002作为右工具正确",
+        "evidence_frame": "C/frames/step_072.png"
+      },
+      {
+        "step": 74,
+        "verdict": "可用",
+        "reason": "Body002列表和单柱绿色预览，OK尝试正确",
+        "evidence_frame": "C/frames/step_073.png"
+      },
+      {
+        "step": 75,
+        "verdict": "可用",
+        "reason": "错误Boolean002后撤销正确；虽未逐字抄基础形状无效，已说明失败而非成功",
+        "evidence_frame": "C/frames/step_074.png"
+      },
+      {
+        "step": 76,
+        "verdict": "可用",
+        "reason": "撤销Boolean002后打开旧Boolean可见性正确",
+        "evidence_frame": "C/frames/step_075.png"
+      },
+      {
+        "step": 77,
+        "verdict": "可用",
+        "reason": "底板左柱恢复且右柱仍选中，清选正确",
+        "evidence_frame": "C/frames/step_076.png"
+      },
+      {
+        "step": 78,
+        "verdict": "可用",
+        "reason": "Boolean001隐藏状态和可见性开关正确；右柱独立显示不等于只显示右柱",
+        "evidence_frame": "C/frames/step_077.png"
+      },
+      {
+        "step": 79,
+        "verdict": "可用",
+        "reason": "切换后底板左柱消失，选残留Boolean001正确",
+        "evidence_frame": "C/frames/step_078.png"
+      },
+      {
+        "step": 80,
+        "verdict": "可用",
+        "reason": "选中Boolean001后右键正确",
+        "evidence_frame": "C/frames/step_079.png"
+      },
+      {
+        "step": 81,
+        "verdict": "可用",
+        "reason": "Delete删除残留且保留早期Boolean正确",
+        "evidence_frame": "C/frames/step_080.png"
+      },
+      {
+        "step": 82,
+        "verdict": "可用",
+        "reason": "删除后恢复第一次融合，树空白清选正确",
+        "evidence_frame": "C/frames/step_081.png"
+      },
+      {
+        "step": 83,
+        "verdict": "可用",
+        "reason": "有效Boolean及独立Body002后重新Boolean正确",
+        "evidence_frame": "C/frames/step_082.png"
+      },
+      {
+        "step": 84,
+        "verdict": "可用",
+        "reason": "Fuse空列表后Add Body正确",
+        "evidence_frame": "C/frames/step_083.png"
+      },
+      {
+        "step": 85,
+        "verdict": "可用",
+        "reason": "Body002工具选择正确",
+        "evidence_frame": "C/frames/step_084.png"
+      },
+      {
+        "step": 86,
+        "verdict": "可用",
+        "reason": "完整底板左柱灰色及右柱绿色预览，OK正确",
+        "evidence_frame": "C/frames/step_085.png"
+      },
+      {
+        "step": 87,
+        "verdict": "可用",
+        "reason": "第二次有效融合后清选正确",
+        "evidence_frame": "C/frames/step_086.png"
+      },
+      {
+        "step": 88,
+        "verdict": "可用",
+        "reason": "完整模型后适配全部正确",
+        "evidence_frame": "C/frames/step_087.png"
+      },
+      {
+        "step": 89,
+        "verdict": "可用",
+        "reason": "适配后打开标准视图下拉正确",
+        "evidence_frame": "C/frames/step_088.png"
+      },
+      {
+        "step": 90,
+        "verdict": "可用",
+        "reason": "首项Isometric与等轴测点击正确",
+        "evidence_frame": "C/frames/step_089.png"
+      }
+    ]
+  }
+}

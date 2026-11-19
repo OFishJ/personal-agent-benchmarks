@@ -1,0 +1,938 @@
+{
+  "task_id": "FREECAD_RECORD_016",
+  "task_category": "FreeCAD GUI Agent Training",
+  "total_steps": 90,
+  "final_state_image": "frames/step_090.png",
+  "ground_truth_actions": [
+    {
+      "step": 1,
+      "image_path": "frames/step_000.png",
+      "action_type": "click",
+      "coordinate": [
+        15,
+        108
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 2,
+      "image_path": "frames/step_001.png",
+      "action_type": "click",
+      "coordinate": [
+        433,
+        102
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 3,
+      "image_path": "frames/step_002.png",
+      "action_type": "click",
+      "coordinate": [
+        403,
+        226
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 4,
+      "image_path": "frames/step_003.png",
+      "action_type": "click",
+      "coordinate": [
+        1586,
+        427
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 5,
+      "image_path": "frames/step_004.png",
+      "action_type": "click",
+      "coordinate": [
+        1586,
+        427
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 6,
+      "image_path": "frames/step_005.png",
+      "action_type": "click",
+      "coordinate": [
+        1232,
+        590
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 7,
+      "image_path": "frames/step_006.png",
+      "action_type": "click",
+      "coordinate": [
+        337,
+        193
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 8,
+      "image_path": "frames/step_007.png",
+      "action_type": "click",
+      "coordinate": [
+        1094,
+        614
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 9,
+      "image_path": "frames/step_008.png",
+      "action_type": "type_and_enter",
+      "text": "80"
+    },
+    {
+      "step": 10,
+      "image_path": "frames/step_009.png",
+      "action_type": "type_and_enter",
+      "text": "50"
+    },
+    {
+      "step": 11,
+      "image_path": "frames/step_010.png",
+      "action_type": "click",
+      "coordinate": [
+        1737,
+        393
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 12,
+      "image_path": "frames/step_011.png",
+      "action_type": "click",
+      "coordinate": [
+        24,
+        182
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 13,
+      "image_path": "frames/step_012.png",
+      "action_type": "hotkey",
+      "key": "enter"
+    },
+    {
+      "step": 14,
+      "image_path": "frames/step_013.png",
+      "action_type": "click",
+      "coordinate": [
+        1610,
+        423
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 15,
+      "image_path": "frames/step_014.png",
+      "action_type": "click",
+      "coordinate": [
+        35,
+        255
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 16,
+      "image_path": "frames/step_015.png",
+      "action_type": "click",
+      "coordinate": [
+        1608,
+        436
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 17,
+      "image_path": "frames/step_016.png",
+      "action_type": "click",
+      "coordinate": [
+        1229,
+        602
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 18,
+      "image_path": "frames/step_017.png",
+      "action_type": "click",
+      "coordinate": [
+        548,
+        193
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 19,
+      "image_path": "frames/step_018.png",
+      "action_type": "click",
+      "coordinate": [
+        208,
+        189
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 20,
+      "image_path": "frames/step_019.png",
+      "action_type": "click",
+      "coordinate": [
+        1093,
+        614
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 21,
+      "image_path": "frames/step_020.png",
+      "action_type": "type_and_enter",
+      "text": "25"
+    },
+    {
+      "step": 22,
+      "image_path": "frames/step_021.png",
+      "action_type": "type_and_enter",
+      "text": "180"
+    },
+    {
+      "step": 23,
+      "image_path": "frames/step_022.png",
+      "action_type": "click",
+      "coordinate": [
+        533,
+        184
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 24,
+      "image_path": "frames/step_023.png",
+      "action_type": "click",
+      "coordinate": [
+        280,
+        190
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 25,
+      "image_path": "frames/step_024.png",
+      "action_type": "click",
+      "coordinate": [
+        891,
+        612
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 26,
+      "image_path": "frames/step_025.png",
+      "action_type": "type_and_enter",
+      "text": "18"
+    },
+    {
+      "step": 27,
+      "image_path": "frames/step_026.png",
+      "action_type": "click",
+      "coordinate": [
+        1698,
+        399
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 28,
+      "image_path": "frames/step_027.png",
+      "action_type": "click",
+      "coordinate": [
+        37,
+        184
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 29,
+      "image_path": "frames/step_028.png",
+      "action_type": "type_and_enter",
+      "text": "22"
+    },
+    {
+      "step": 30,
+      "image_path": "frames/step_029.png",
+      "action_type": "right_click",
+      "coordinate": [
+        90,
+        282
+      ],
+      "modifier": ""
+    },
+    {
+      "step": 31,
+      "image_path": "frames/step_030.png",
+      "action_type": "click",
+      "coordinate": [
+        172,
+        374
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 32,
+      "image_path": "frames/step_031.png",
+      "action_type": "click",
+      "coordinate": [
+        1632,
+        503
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 33,
+      "image_path": "frames/step_032.png",
+      "action_type": "drag",
+      "start_coordinate": [
+        1632,
+        540
+      ],
+      "end_coordinate": [
+        1595,
+        536
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 34,
+      "image_path": "frames/step_033.png",
+      "action_type": "type",
+      "text": "8"
+    },
+    {
+      "step": 35,
+      "image_path": "frames/step_034.png",
+      "action_type": "click",
+      "coordinate": [
+        1811,
+        995
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 36,
+      "image_path": "frames/step_035.png",
+      "action_type": "click",
+      "coordinate": [
+        640,
+        366
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 37,
+      "image_path": "frames/step_036.png",
+      "action_type": "click",
+      "coordinate": [
+        1606,
+        433
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 38,
+      "image_path": "frames/step_037.png",
+      "action_type": "click",
+      "coordinate": [
+        28,
+        278
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 39,
+      "image_path": "frames/step_038.png",
+      "action_type": "click",
+      "coordinate": [
+        1615,
+        427
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 40,
+      "image_path": "frames/step_039.png",
+      "action_type": "click",
+      "coordinate": [
+        1228,
+        596
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 41,
+      "image_path": "frames/step_040.png",
+      "action_type": "click",
+      "coordinate": [
+        542,
+        181
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 42,
+      "image_path": "frames/step_041.png",
+      "action_type": "click",
+      "coordinate": [
+        217,
+        187
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 43,
+      "image_path": "frames/step_042.png",
+      "action_type": "click",
+      "coordinate": [
+        1093,
+        612
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 44,
+      "image_path": "frames/step_043.png",
+      "action_type": "type_and_enter",
+      "text": "25"
+    },
+    {
+      "step": 45,
+      "image_path": "frames/step_044.png",
+      "action_type": "hotkey",
+      "key": "enter"
+    },
+    {
+      "step": 46,
+      "image_path": "frames/step_045.png",
+      "action_type": "click",
+      "coordinate": [
+        546,
+        184
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 47,
+      "image_path": "frames/step_046.png",
+      "action_type": "click",
+      "coordinate": [
+        285,
+        186
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 48,
+      "image_path": "frames/step_047.png",
+      "action_type": "click",
+      "coordinate": [
+        1296,
+        614
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 49,
+      "image_path": "frames/step_048.png",
+      "action_type": "type_and_enter",
+      "text": "18"
+    },
+    {
+      "step": 50,
+      "image_path": "frames/step_049.png",
+      "action_type": "click",
+      "coordinate": [
+        1720,
+        398
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 51,
+      "image_path": "frames/step_050.png",
+      "action_type": "click",
+      "coordinate": [
+        39,
+        184
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 52,
+      "image_path": "frames/step_051.png",
+      "action_type": "type_and_enter",
+      "text": "22"
+    },
+    {
+      "step": 53,
+      "image_path": "frames/step_052.png",
+      "action_type": "right_click",
+      "coordinate": [
+        118,
+        300
+      ],
+      "modifier": ""
+    },
+    {
+      "step": 54,
+      "image_path": "frames/step_053.png",
+      "action_type": "click",
+      "coordinate": [
+        217,
+        399
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 55,
+      "image_path": "frames/step_054.png",
+      "action_type": "drag",
+      "start_coordinate": [
+        1629,
+        539
+      ],
+      "end_coordinate": [
+        1602,
+        539
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 56,
+      "image_path": "frames/step_055.png",
+      "action_type": "type",
+      "text": "8"
+    },
+    {
+      "step": 57,
+      "image_path": "frames/step_056.png",
+      "action_type": "click",
+      "coordinate": [
+        1835,
+        988
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 58,
+      "image_path": "frames/step_057.png",
+      "action_type": "click",
+      "coordinate": [
+        1159,
+        775
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 59,
+      "image_path": "frames/step_058.png",
+      "action_type": "click",
+      "coordinate": [
+        29,
+        258
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 60,
+      "image_path": "frames/step_059.png",
+      "action_type": "click",
+      "coordinate": [
+        33,
+        281
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 61,
+      "image_path": "frames/step_060.png",
+      "action_type": "double_click",
+      "coordinate": [
+        90,
+        254
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 62,
+      "image_path": "frames/step_061.png",
+      "action_type": "click",
+      "coordinate": [
+        520,
+        181
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 63,
+      "image_path": "frames/step_062.png",
+      "action_type": "click",
+      "coordinate": [
+        1648,
+        481
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 64,
+      "image_path": "frames/step_063.png",
+      "action_type": "click",
+      "coordinate": [
+        89,
+        336
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 65,
+      "image_path": "frames/step_064.png",
+      "action_type": "click",
+      "coordinate": [
+        1778,
+        394
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 66,
+      "image_path": "frames/step_065.png",
+      "action_type": "click",
+      "coordinate": [
+        514,
+        178
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 67,
+      "image_path": "frames/step_066.png",
+      "action_type": "click",
+      "coordinate": [
+        1114,
+        605
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 68,
+      "image_path": "frames/step_067.png",
+      "action_type": "click",
+      "coordinate": [
+        147,
+        402
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 69,
+      "image_path": "frames/step_068.png",
+      "action_type": "click",
+      "coordinate": [
+        134,
+        343
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 70,
+      "image_path": "frames/step_069.png",
+      "action_type": "click",
+      "coordinate": [
+        775,
+        409
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 71,
+      "image_path": "frames/step_070.png",
+      "action_type": "click",
+      "coordinate": [
+        520,
+        193
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 72,
+      "image_path": "frames/step_071.png",
+      "action_type": "click",
+      "coordinate": [
+        1660,
+        482
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 73,
+      "image_path": "frames/step_072.png",
+      "action_type": "click",
+      "coordinate": [
+        109,
+        384
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 74,
+      "image_path": "frames/step_073.png",
+      "action_type": "click",
+      "coordinate": [
+        1774,
+        399
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 75,
+      "image_path": "frames/step_074.png",
+      "action_type": "click",
+      "coordinate": [
+        136,
+        111
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 76,
+      "image_path": "frames/step_075.png",
+      "action_type": "click",
+      "coordinate": [
+        41,
+        319
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 77,
+      "image_path": "frames/step_076.png",
+      "action_type": "click",
+      "coordinate": [
+        413,
+        337
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 78,
+      "image_path": "frames/step_077.png",
+      "action_type": "click",
+      "coordinate": [
+        42,
+        338
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 79,
+      "image_path": "frames/step_078.png",
+      "action_type": "click",
+      "coordinate": [
+        79,
+        335
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 80,
+      "image_path": "frames/step_079.png",
+      "action_type": "right_click",
+      "coordinate": [
+        79,
+        335
+      ],
+      "modifier": ""
+    },
+    {
+      "step": 81,
+      "image_path": "frames/step_080.png",
+      "action_type": "click",
+      "coordinate": [
+        206,
+        569
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 82,
+      "image_path": "frames/step_081.png",
+      "action_type": "click",
+      "coordinate": [
+        211,
+        457
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 83,
+      "image_path": "frames/step_082.png",
+      "action_type": "click",
+      "coordinate": [
+        520,
+        198
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 84,
+      "image_path": "frames/step_083.png",
+      "action_type": "click",
+      "coordinate": [
+        1643,
+        480
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 85,
+      "image_path": "frames/step_084.png",
+      "action_type": "click",
+      "coordinate": [
+        105,
+        361
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 86,
+      "image_path": "frames/step_085.png",
+      "action_type": "click",
+      "coordinate": [
+        1810,
+        400
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 87,
+      "image_path": "frames/step_086.png",
+      "action_type": "click",
+      "coordinate": [
+        1269,
+        351
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 88,
+      "image_path": "frames/step_087.png",
+      "action_type": "click",
+      "coordinate": [
+        536,
+        107
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 89,
+      "image_path": "frames/step_088.png",
+      "action_type": "click",
+      "coordinate": [
+        626,
+        105
+      ],
+      "button": "left",
+      "modifier": ""
+    },
+    {
+      "step": 90,
+      "image_path": "frames/step_089.png",
+      "action_type": "click",
+      "coordinate": [
+        627,
+        139
+      ],
+      "button": "left",
+      "modifier": ""
+    }
+  ]
+}
