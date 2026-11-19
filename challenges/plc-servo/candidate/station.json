@@ -1,0 +1,19 @@
+{
+  "build": 1,
+  "station": {
+    "mode": "alias",
+    "address": 1,
+    "vendor": "0x0000F001",
+    "product": "0x00001001",
+    "revision": "0x00000001"
+  },
+  "pdo": {
+    "rx": "0x1600",
+    "tx": "0x1A00"
+  },
+  "axis": {
+    "feedback": null,
+    "counts_per_rev": 262144,
+    "units_per_rev": 360
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Synthetic device fixture written for this exercise. Identifiers have local meaning only. -->
+<EtherCATInfo>
+  <Vendor><Id>#x0000F001</Id><Name>Benchmark Lab</Name></Vendor>
+  <Descriptions><Devices><Device>
+    <Type ProductCode="#x00001001" RevisionNo="#x00000001">LAB-SERVO-1</Type>
+    <RxPdo>
+      <Index>#x1600</Index>
+      <Entry><Index>#x6040</Index><SubIndex>0</SubIndex><Name>Control word</Name></Entry>
+      <Entry><Index>#x607A</Index><SubIndex>0</SubIndex><Name>Target position</Name></Entry>
+    </RxPdo>
+    <TxPdo>
+      <Index>#x1A00</Index>
+      <Entry><Index>#x6041</Index><SubIndex>0</SubIndex><Name>Status word</Name></Entry>
+      <Entry><Index>#x6064</Index><SubIndex>0</SubIndex><Name>Position actual value</Name></Entry>
+    </TxPdo>
+    <TxPdo>
+      <Index>#x1A01</Index>
+      <Entry><Index>#x6041</Index><SubIndex>0</SubIndex><Name>Status word</Name></Entry>
+    </TxPdo>
+  </Device></Devices></Descriptions>
+</EtherCATInfo>
