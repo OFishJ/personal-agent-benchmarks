@@ -6,6 +6,7 @@
 | --- | --- | --- | --- | --- |
 | [01 · 单轴伺服调试](challenges/plc-servo/README.md) | L3 独立诊断与验证 | D3 多项约束联动 | 故障定位、控制程序实现、试验设计、独立验收 | 双向点动中验后，用同一份程序和组态跑通位置、速度、转矩 |
 | [02 · FreeCAD 绘图、画框与中文描述](challenges/freecad-demonstration/README.md) | L2 自主实现 | D2 常规组合 | 参数化建模、GUI 操作记录、目标定位、操作意图辨读 | 在 GUI 中画一件随动桥架，为一段五孔圆盘轨迹画框，为另一段双柱融合轨迹补中文 |
+| [03 · 紧凑同轴行星舵机关节](challenges/joint-module/README.md) | L3 独立诊断与验证 | D4 复杂推导或权衡 | 机电集成、行星传动设计、装配顺序、受载验证 | 从零交付可拆检数字样机并证明它满足转矩、刚度、空回和装配要求 |
 
 自主性衡量考生要自己决定哪些事。任务难度衡量在已有路线指引时，把结果做对仍有多难。两项单独标注，首题采用设计评级，待真实模型盲测校准。[分级标准与跨领域示例](RATINGS.md)
 
@@ -31,4 +32,4 @@ python -I -B -X utf8 examiner/selftest.py
 
 作者与维护者为 **OFishJ**。OpenAI Codex 协助实现工位、检验用例和说明。代码、文档和合成材料采用 [MIT 许可证](LICENSE)。FreeCAD 界面截图与录制材料的出处见第二题说明。
 
-**English.** Hands-on agent benchmarks in servo commissioning and FreeCAD. The FreeCAD challenge includes GUI modeling, bounding-box annotation, and Chinese step descriptions, with separate candidate materials and examiner references.
+**English.** Hands-on agent benchmarks in servo commissioning, FreeCAD, and compact planetary joint design. The FreeCAD challenge includes GUI modeling, bounding-box annotation, and Chinese step descriptions, with separate candidate materials and examiner references.
