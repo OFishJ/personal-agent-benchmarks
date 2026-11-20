@@ -1,0 +1,32 @@
+{
+  "first": {
+    "archive_sha256": "cbf4249212d696d19fa5d608f33dc81ca207f29e1084bbbd77cc0e48d8cdd00f",
+    "members": [
+      {
+        "file": "P5_Full.step",
+        "bytes": 6389563,
+        "sha256": "13ae8b335f0e8f79dd063f6b4f8a4e7c2ba72e6bb7f7c327bba58f29e41342ea"
+      },
+      {
+        "file": "P5_Mechanical.step",
+        "bytes": 6132901,
+        "sha256": "09e6cfa04b1880384e8ff525b0c2514e2b5c639526931f682f44884fbf1fb3d0"
+      }
+    ]
+  },
+  "repeat": {
+    "archive_sha256": "9518b19177ad5a8481aa673f1dc64ec646b93d0a55edd009c94d79afd272aee7",
+    "members": [
+      {
+        "file": "P5_Full.step",
+        "bytes": 6378704,
+        "sha256": "d984d4c1a2133ad9a6059b7284ad5fd09c186bc64f1b87e7b50f6ba87fe4f0ec"
+      },
+      {
+        "file": "P5_Mechanical.step",
+        "bytes": 6122152,
+        "sha256": "8c13e06c3b14e093197dc8a326b8a1f6a6a8f5e4632f386f678a2c1b87c30f53"
+      }
+    ]
+  }
+}
