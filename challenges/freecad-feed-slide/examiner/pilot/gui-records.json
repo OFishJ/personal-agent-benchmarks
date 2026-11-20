@@ -1,0 +1,101 @@
+{
+  "P02": {
+    "steps": 181,
+    "frame_count": 182,
+    "frame_sizes": [
+      [
+        1707,
+        1067
+      ]
+    ],
+    "actions": {
+      "hotkey": 31,
+      "click": 75,
+      "double_click": 26,
+      "type_and_enter": 26,
+      "right_click": 11,
+      "type": 12
+    },
+    "sequence_errors": [],
+    "record_state": "stopped",
+    "quality_issues": [],
+    "full_pngs_decoded": 182,
+    "decoded_sizes": [
+      [
+        1707,
+        1067
+      ]
+    ]
+  },
+  "P04": {
+    "steps": 80,
+    "frame_count": 81,
+    "frame_sizes": [
+      [
+        1707,
+        1067
+      ]
+    ],
+    "actions": {
+      "hotkey": 16,
+      "click": 33,
+      "double_click": 11,
+      "type_and_enter": 11,
+      "right_click": 4,
+      "type": 5
+    },
+    "sequence_errors": [],
+    "record_state": "stopped",
+    "quality_issues": [],
+    "full_pngs_decoded": 81,
+    "decoded_sizes": [
+      [
+        1707,
+        1067
+      ]
+    ]
+  },
+  "P09": {
+    "steps": 73,
+    "frame_count": 74,
+    "frame_sizes": [
+      [
+        1707,
+        1067
+      ]
+    ],
+    "actions": {
+      "click": 27,
+      "hotkey": 24,
+      "type": 11,
+      "double_click": 7,
+      "type_and_enter": 3,
+      "right_click": 1
+    },
+    "sequence_errors": [],
+    "record_state": "stopped",
+    "quality_issues": [
+      {
+        "request_id": "1795136838297246100_0ec3f1be",
+        "committed_step": 31,
+        "error": null,
+        "capture_warnings": [],
+        "visual_quiet": false
+      },
+      {
+        "request_id": "1795137022318245600_74ca983f",
+        "committed_step": 46,
+        "error": null,
+        "capture_warnings": [],
+        "visual_quiet": false
+      }
+    ],
+    "full_pngs_decoded": 74,
+    "decoded_sizes": [
+      [
+        1707,
+        1067
+      ]
+    ]
+  }
+}

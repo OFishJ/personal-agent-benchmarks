@@ -1,0 +1,1869 @@
+{
+  "P02": {
+    "visible": [
+      "Cut008"
+    ],
+    "delta": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "objects": [
+      {
+        "name": "Box",
+        "type": "Part::Box",
+        "expressions": "[('Placement', 'placement(vector(0; -38; 0); rotation(0; 0; 0))')]",
+        "Height": "8.0 mm",
+        "Length": "12.0 mm",
+        "Width": "76.0 mm",
+        "Placement": "Placement [Pos=(0,-38,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Box001",
+        "type": "Part::Box",
+        "expressions": "[('Placement', 'placement(vector(0; -29; 8); rotation(0; 0; 0))')]",
+        "Height": "30.0 mm",
+        "Length": "12.0 mm",
+        "Width": "58.0 mm",
+        "Placement": "Placement [Pos=(0,-29,8), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Fusion",
+        "type": "Part::MultiFuse",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Box002",
+        "type": "Part::Box",
+        "expressions": "[('Placement', 'placement(vector(0; 29; 30); rotation(0; 0; 32.0053832081))')]",
+        "Height": "24.0 mm",
+        "Length": "12.0 mm",
+        "Width": "24.0 mm",
+        "Placement": "Placement [Pos=(0,29,30), Yaw-Pitch-Roll=(0,0,32.0054)]"
+      },
+      {
+        "name": "Cut",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Box003",
+        "type": "Part::Box",
+        "expressions": "[('Placement', 'placement(vector(12; -29; 30); rotation(180; 0; 32.0053832081))')]",
+        "Height": "24.0 mm",
+        "Length": "12.0 mm",
+        "Width": "24.0 mm",
+        "Placement": "Placement [Pos=(12,-29,30), Yaw-Pitch-Roll=(180,1.93438e-15,32.0054)]"
+      },
+      {
+        "name": "Cut001",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(0; -21; 26); rotation(vector(0; 1; 0); 90 deg))')]",
+        "Radius": "4.0 mm",
+        "Height": "12.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,-21,26), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "Cut002",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder001",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(0; 21; 26); rotation(vector(0; 1; 0); 90 deg))')]",
+        "Radius": "4.0 mm",
+        "Height": "12.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,21,26), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "Cut003",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder002",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(0; 0; 26); rotation(vector(0; 1; 0); 90 deg))')]",
+        "Radius": "6.1 mm",
+        "Height": "12.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,26), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "Cut004",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder003",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(0; 0; 26); rotation(vector(0; 1; 0); 90 deg))')]",
+        "Radius": "9.0 mm",
+        "Height": "6.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,26), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "Cut005",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder004",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(6; -33; 0); rotation(0; 0; 0))')]",
+        "Radius": "2.75 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(6,-33,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cut006",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder005",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(6; 33; 0); rotation(0; 0; 0))')]",
+        "Radius": "2.75 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(6,33,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cut007",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder006",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(3; 0; 34); rotation(0; 0; 0))')]",
+        "Radius": "1.0 mm",
+        "Height": "4.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(3,0,34), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cut008",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      }
+    ]
+  },
+  "P03": {
+    "visible": [
+      "SaddleResult"
+    ],
+    "delta": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "objects": [
+      {
+        "name": "Dimensions",
+        "type": "App::VarSet",
+        "expressions": "[]",
+        "TopPitch": "24.0 mm"
+      },
+      {
+        "name": "LowerBlock",
+        "type": "Part::Box",
+        "expressions": "[]",
+        "Height": "22.0 mm",
+        "Length": "40.0 mm",
+        "Width": "56.0 mm",
+        "Placement": "Placement [Pos=(0,-28,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "UpperWing",
+        "type": "Part::Box",
+        "expressions": "[]",
+        "Height": "6.0 mm",
+        "Length": "40.0 mm",
+        "Width": "66.0 mm",
+        "Placement": "Placement [Pos=(0,-33,22), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Blank",
+        "type": "Part::Fuse",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "NutBore",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "11.1 mm",
+        "Height": "40.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,12), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "Guide1",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "4.2 mm",
+        "Height": "40.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,-21,12), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "Guide2",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "4.2 mm",
+        "Height": "40.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,21,12), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "FlangeM3_1",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "1.5 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,-12,3), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "FlangeM3_2",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "1.5 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,12,21), Yaw-Pitch-Roll=(0,90,0)]"
+      },
+      {
+        "name": "TopM5_11",
+        "type": "Part::Cylinder",
+        "expressions": "[('.Placement.Base.x', '20 mm - Dimensions.TopPitch / 2')]",
+        "Radius": "2.5 mm",
+        "Height": "6.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(8,-24,22), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "TopM5_12",
+        "type": "Part::Cylinder",
+        "expressions": "[('.Placement.Base.x', '20 mm - Dimensions.TopPitch / 2')]",
+        "Radius": "2.5 mm",
+        "Height": "6.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(8,24,22), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "TopM5_21",
+        "type": "Part::Cylinder",
+        "expressions": "[('.Placement.Base.x', '20 mm + Dimensions.TopPitch / 2')]",
+        "Radius": "2.5 mm",
+        "Height": "6.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(32,-24,22), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "TopM5_22",
+        "type": "Part::Cylinder",
+        "expressions": "[('.Placement.Base.x', '20 mm + Dimensions.TopPitch / 2')]",
+        "Radius": "2.5 mm",
+        "Height": "6.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(32,24,22), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill1",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill2",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill3",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill4",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill5",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill6",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill7",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Drill8",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "SaddleResult",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      }
+    ]
+  },
+  "P04": {
+    "visible": [
+      "Cut002"
+    ],
+    "delta": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "objects": [
+      {
+        "name": "Cylinder",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "22.0 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder001",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(0; 0; 8); rotation(0; 0; 0))')]",
+        "Radius": "10.0 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,8), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Fusion",
+        "type": "Part::MultiFuse",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder002",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "6.0 mm",
+        "Height": "16.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Box",
+        "type": "Part::Box",
+        "expressions": "[('Placement', 'placement(vector(-5; 5; 0); rotation(0; 0; 0))')]",
+        "Height": "16.0 mm",
+        "Length": "10.0 mm",
+        "Width": "10.0 mm",
+        "Placement": "Placement [Pos=(-5,5,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cut",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cut001",
+        "type": "Part::Cut",
+        "expressions": "[]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder003",
+        "type": "Part::Cylinder",
+        "expressions": "[('Placement', 'placement(vector(0; 14; 0); rotation(0; 0; 0))')]",
+        "Radius": "2.5 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,14,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cut002",
+        "type": "Part::Cut",
+        "expressions": "[('Placement', 'placement(vector(0; 0; 0); rotation(vector(0; 1; 0); 90 deg))')]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,90,0)]"
+      }
+    ]
+  },
+  "P09": {
+    "visible": [
+      "Fusion"
+    ],
+    "delta": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "objects": [
+      {
+        "name": "Cylinder",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "4.0 mm",
+        "Height": "16.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Cylinder001",
+        "type": "Part::Cylinder",
+        "expressions": "[]",
+        "Radius": "2.5 mm",
+        "Height": "8.0 mm",
+        "Angle": "360.0 deg",
+        "Placement": "Placement [Pos=(0,0,16), Yaw-Pitch-Roll=(0,0,0)]"
+      },
+      {
+        "name": "Fusion",
+        "type": "Part::MultiFuse",
+        "expressions": "[('Placement', 'placement(vector(0; 0; 0); rotation(vector(0; 1; 0); 90 deg))')]",
+        "Placement": "Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,90,0)]"
+      }
+    ]
+  },
+  "api": {
+    "24": {
+      "hole_centres": [
+        [
+          8.0,
+          -24.0,
+          22.0
+        ],
+        [
+          8.0,
+          24.0,
+          22.0
+        ],
+        [
+          32.0,
+          -24.0,
+          22.0
+        ],
+        [
+          32.0,
+          24.0,
+          22.0
+        ]
+      ],
+      "delta": {
+        "extra": 0.0,
+        "missing": 0.0
+      }
+    },
+    "20": {
+      "hole_centres": [
+        [
+          10.0,
+          -24.0,
+          22.0
+        ],
+        [
+          10.0,
+          24.0,
+          22.0
+        ],
+        [
+          30.0,
+          -24.0,
+          22.0
+        ],
+        [
+          30.0,
+          24.0,
+          22.0
+        ]
+      ],
+      "delta": {
+        "extra": 0.0,
+        "missing": 0.0
+      }
+    }
+  },
+  "materials": {
+    "incoming": {
+      "P01": {
+        "bbox": [
+          160.0,
+          88.0,
+          8.0
+        ],
+        "delta_to_nominal": {
+          "extra": 0.0,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              13.5,
+              18.5,
+              -35.5,
+              -30.5,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              32.7,
+              39.3,
+              -39.3,
+              -32.7,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              120.7,
+              127.3,
+              -39.3,
+              -32.7,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              141.5,
+              146.5,
+              -35.5,
+              -30.5,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              13.5,
+              18.5,
+              30.5,
+              35.5,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              32.7,
+              39.3,
+              32.7,
+              39.3,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              120.7,
+              127.3,
+              32.7,
+              39.3,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              141.5,
+              146.5,
+              30.5,
+              35.5,
+              0.0,
+              8.0
+            ]
+          }
+        ]
+      },
+      "P05": {
+        "bbox": [
+          162.0,
+          16.0,
+          16.0
+        ],
+        "delta_to_nominal": {
+          "extra": 0.0,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 6.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              34.0,
+              -6.0,
+              6.0,
+              -6.0,
+              6.0
+            ]
+          },
+          {
+            "radius": 8.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              34.0,
+              150.0,
+              -8.0,
+              8.0,
+              -8.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 6.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              150.0,
+              162.0,
+              -6.0,
+              6.0,
+              -6.0,
+              6.0
+            ]
+          }
+        ]
+      },
+      "P07": {
+        "bbox": [
+          140.0,
+          8.6,
+          8.6
+        ],
+        "delta_to_nominal": {
+          "extra": 1095.1591990414036,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 4.3,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              140.0,
+              -4.3,
+              4.3,
+              -4.3,
+              4.3
+            ]
+          }
+        ]
+      },
+      "P08": {
+        "bbox": [
+          6.0,
+          18.00006612450553,
+          18.0
+        ],
+        "delta_to_nominal": {
+          "extra": 53.01971366286065,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 9.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              3.5,
+              6.0,
+              -9.0,
+              9.0,
+              -9.0,
+              9.0
+            ]
+          },
+          {
+            "radius": 0.75,
+            "axis": "Vector (0.0, 1.0, 0.0)",
+            "bbox": [
+              2.25,
+              3.75,
+              6.053451947663495,
+              9.00006612450553,
+              -0.75,
+              0.75
+            ]
+          },
+          {
+            "radius": 9.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              2.5,
+              -9.0,
+              9.0,
+              -9.0,
+              9.0
+            ]
+          },
+          {
+            "radius": 6.1,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              6.0,
+              -6.1,
+              6.1,
+              -6.1,
+              6.1
+            ]
+          },
+          {
+            "radius": 8.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              2.5,
+              3.5,
+              -8.0,
+              7.980444849756184,
+              -8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    },
+    "released": {
+      "P01": {
+        "bbox": [
+          160.0,
+          88.0,
+          8.0
+        ],
+        "delta_to_nominal": {
+          "extra": 0.0,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              13.5,
+              18.5,
+              -35.5,
+              -30.5,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              32.7,
+              39.3,
+              -39.3,
+              -32.7,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              120.7,
+              127.3,
+              -39.3,
+              -32.7,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              141.5,
+              146.5,
+              -35.5,
+              -30.5,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              13.5,
+              18.5,
+              30.5,
+              35.5,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              32.7,
+              39.3,
+              32.7,
+              39.3,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 3.3,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              120.7,
+              127.3,
+              32.7,
+              39.3,
+              0.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 2.5,
+            "axis": "Vector (0.0, 0.0, 1.0)",
+            "bbox": [
+              141.5,
+              146.5,
+              30.5,
+              35.5,
+              0.0,
+              8.0
+            ]
+          }
+        ]
+      },
+      "P05": {
+        "bbox": [
+          162.0,
+          16.0,
+          16.0
+        ],
+        "delta_to_nominal": {
+          "extra": 0.0,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 6.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              34.0,
+              -6.0,
+              6.0,
+              -6.0,
+              6.0
+            ]
+          },
+          {
+            "radius": 8.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              34.0,
+              150.0,
+              -8.0,
+              8.0,
+              -8.0,
+              8.0
+            ]
+          },
+          {
+            "radius": 6.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              150.0,
+              162.0,
+              -6.0,
+              6.0,
+              -6.0,
+              6.0
+            ]
+          }
+        ]
+      },
+      "P07": {
+        "bbox": [
+          140.0,
+          8.0,
+          8.0
+        ],
+        "delta_to_nominal": {
+          "extra": 0.0,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 4.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              140.0,
+              -4.0,
+              4.0,
+              -4.0,
+              4.0
+            ]
+          }
+        ]
+      },
+      "P08": {
+        "bbox": [
+          6.0,
+          18.0,
+          18.0
+        ],
+        "delta_to_nominal": {
+          "extra": 0.0,
+          "missing": 0.0
+        },
+        "cylinders": [
+          {
+            "radius": 9.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              4.0,
+              6.0,
+              -9.0,
+              9.0,
+              -9.0,
+              9.0
+            ]
+          },
+          {
+            "radius": 6.1,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              6.0,
+              -6.1,
+              6.1,
+              -6.1,
+              6.1
+            ]
+          },
+          {
+            "radius": 0.75,
+            "axis": "Vector (0.0, 1.0, 0.0)",
+            "bbox": [
+              2.25,
+              3.75,
+              6.053451947663495,
+              8.000078141018047,
+              -0.75,
+              0.75
+            ]
+          },
+          {
+            "radius": 9.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              0.0,
+              2.0,
+              -9.0,
+              9.0,
+              -9.0,
+              9.0
+            ]
+          },
+          {
+            "radius": 8.0,
+            "axis": "Vector (1.0, 0.0, 0.0)",
+            "bbox": [
+              2.0,
+              4.0,
+              -8.0,
+              8.0,
+              -8.0,
+              8.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "motion": [
+    {
+      "turns": 0.0,
+      "saddle_x": 36.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        34.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 0.25,
+      "saddle_x": 37.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        8.572527594031472e-16,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 0.5,
+      "saddle_x": 38.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        34.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 0.75,
+      "saddle_x": 39.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -2.5717582782094417e-15,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 1.0,
+      "saddle_x": 40.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        34.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 1.25,
+      "saddle_x": 41.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        4.2862637970157365e-15,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 1.5,
+      "saddle_x": 42.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        34.00000000000001
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 1.75,
+      "saddle_x": 43.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -6.00076931582203e-15,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 2.0,
+      "saddle_x": 44.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.99999999999999
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 2.25,
+      "saddle_x": 45.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        7.715274834628325e-15,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 2.5,
+      "saddle_x": 46.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        34.00000000000001
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 2.75,
+      "saddle_x": 47.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        1.5439215398168887e-14,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 3.0,
+      "saddle_x": 48.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.99999999999999
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 3.25,
+      "saddle_x": 49.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -1.3724709879362592e-14,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 3.5,
+      "saddle_x": 50.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        34.000000000000014
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 3.75,
+      "saddle_x": 51.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        1.2010204360556299e-14,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 4.0,
+      "saddle_x": 52.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.999999999999986
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 4.25,
+      "saddle_x": 53.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -1.0295698841750003e-14,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 4.5,
+      "saddle_x": 54.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        34.000000000000014
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 4.75,
+      "saddle_x": 55.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        8.58119332294371e-15,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 5.0,
+      "saddle_x": 56.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.999999999999986
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 5.25,
+      "saddle_x": 57.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -6.8666878041374145e-15,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 5.5,
+      "saddle_x": 58.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        33.99999999999997
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 5.75,
+      "saddle_x": 59.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -4.458580921787589e-14,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 6.0,
+      "saddle_x": 60.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.99999999999998
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 6.25,
+      "saddle_x": 61.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -3.437676766524826e-15,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 6.5,
+      "saddle_x": 62.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        33.99999999999997
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 6.75,
+      "saddle_x": 63.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -4.801482025548848e-14,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 7.0,
+      "saddle_x": 64.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.99999999999998
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 7.25,
+      "saddle_x": 65.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -8.665728912237008e-18,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 7.5,
+      "saddle_x": 66.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        33.99999999999998
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 7.75,
+      "saddle_x": 67.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -5.1443831293101065e-14,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 8.0,
+      "saddle_x": 68.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.99999999999997
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 8.25,
+      "saddle_x": 69.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        3.420345308700352e-15,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 8.5,
+      "saddle_x": 70.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        33.99999999999998
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 8.75,
+      "saddle_x": 71.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -5.487284233071366e-14,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 9.0,
+      "saddle_x": 72.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.99999999999997
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 9.25,
+      "saddle_x": 73.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        6.849356346312941e-15,
+        48.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 9.5,
+      "saddle_x": 74.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -14.0,
+        33.999999999999986
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 9.75,
+      "saddle_x": 75.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -5.830185336832625e-14,
+        20.0
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 10.0,
+      "saddle_x": 76.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        33.999999999999964
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 3.173,
+      "saddle_x": 48.692,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        6.512115093084428,
+        46.393238358654365
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 2.673,
+      "saddle_x": 46.692,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        -6.512115093084427,
+        21.60676164134563
+      ],
+      "clashes": []
+    },
+    {
+      "turns": 0,
+      "saddle_x": 36.0,
+      "saddle_yz": [
+        0.0,
+        22.0
+      ],
+      "saddle_rotation": 0.0,
+      "screw_xmin": -12.0,
+      "pin_yz": [
+        14.0,
+        34.0
+      ],
+      "clashes": []
+    }
+  ],
+  "instance_count": 18,
+  "extra_shapes": [],
+  "expressions": {
+    "P01": "[]",
+    "P02L": "[]",
+    "P02R": "[]",
+    "P03": "[('.Placement.Base.x', '36 mm + 4 mm * Drive.Turns')]",
+    "P04": "[('.Placement.Rotation', 'rotation(vector(1; 0; 0); Drive.Turns * 360 deg)')]",
+    "P05": "[('.Placement.Rotation', 'rotation(vector(1; 0; 0); Drive.Turns * 360 deg)')]",
+    "P06": "[('.Placement.Base.x', '32 mm + 4 mm * Drive.Turns')]",
+    "P07a": "[]",
+    "P07b": "[]",
+    "P08L": "[]",
+    "P08R": "[]",
+    "P09": "[('Placement', 'placement(vector(-28 mm; 14 mm * cos(Drive.Turns * 360 deg); 34 mm + 14 mm * sin(Drive.Turns * 360 deg)); rotation(vector(1; 0; 0); Drive.Turns * 360 deg))')]",
+    "P10a": "[]",
+    "P10b": "[]",
+    "P10c": "[]",
+    "P10d": "[]",
+    "P11a": "[('.Placement.Base.x', '29 mm + 4 mm * Drive.Turns')]",
+    "P11b": "[('.Placement.Base.x', '29 mm + 4 mm * Drive.Turns')]"
+  },
+  "assembly_source_match": {
+    "P01": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P02L": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P02R": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P03": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P04": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P05": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P06": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P07a": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P07b": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P08L": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P08R": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P09": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P10a": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P10b": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P10c": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P10d": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P11a": {
+      "extra": 0.0,
+      "missing": 0.0
+    },
+    "P11b": {
+      "extra": 0.0,
+      "missing": 0.0
+    }
+  },
+  "standard_seven": [
+    {
+      "turns": 0,
+      "saddle_xmin_mm": 36.0,
+      "peg_center_yz_mm": [
+        14.0,
+        34.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 1.25,
+      "saddle_xmin_mm": 41.0,
+      "peg_center_yz_mm": [
+        3.924091702568765e-15,
+        48.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 5,
+      "saddle_xmin_mm": 56.0,
+      "peg_center_yz_mm": [
+        14.0,
+        33.999999999999986
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 4.5,
+      "saddle_xmin_mm": 54.0,
+      "peg_center_yz_mm": [
+        -14.0,
+        34.000000000000014
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 7.375,
+      "saddle_xmin_mm": 65.5,
+      "peg_center_yz_mm": [
+        -9.899494936611639,
+        43.89949493661169
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 10,
+      "saddle_xmin_mm": 76.0,
+      "peg_center_yz_mm": [
+        14.0,
+        33.999999999999964
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 0,
+      "saddle_xmin_mm": 36.0,
+      "peg_center_yz_mm": [
+        14.0,
+        34.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    }
+  ]
+}

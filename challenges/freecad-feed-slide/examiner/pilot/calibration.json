@@ -1,0 +1,33 @@
+{
+  "examiner": "gpt-6.1-sol",
+  "type": "three anonymized calibration assemblies before formal marking",
+  "results": {
+    "J14": {
+      "zero_qualified": true,
+      "loaded_geometric_motion_qualified": false,
+      "primary_defect": "P03 未随螺母平移，始终 Xmin=36；1.25 圈应为 41，10 圈应为 76。",
+      "evidence": "1.25 圈 P03/P06 公共体积1707.0639 mm3，P03/P11a、P03/P11b各37.8955 mm3。2.137圈仍为36，应44.548。",
+      "extended_pose_count": 44,
+      "nominal_mismatch_pose_count": 42,
+      "positive_interference_pose_count": 42
+    },
+    "J37": {
+      "zero_qualified": true,
+      "loaded_geometric_motion_qualified": false,
+      "primary_defect": "P04/P05/P09 同步旋转方向与题面相反；平移方向/导程正确。",
+      "evidence": "正0.25圈（及1.25圈）摇柄质心Y约0、Z=20，规定应Z=48。2.137圈滑鞍44.548正确，摇柄Z=23.382933，应44.617067。",
+      "extended_pose_count": 44,
+      "nominal_mismatch_pose_count": 22,
+      "positive_interference_pose_count": 0
+    },
+    "J61": {
+      "zero_qualified": true,
+      "loaded_geometric_motion_qualified": true,
+      "primary_defect": null,
+      "evidence": "正规七次滑鞍X=36,41,56,54,65.5,76,36，摇柄方向正确；41点行程及额外非整圈/反转/回零均符合名义。",
+      "extended_pose_count": 44,
+      "nominal_mismatch_pose_count": 0,
+      "positive_interference_pose_count": 0
+    }
+  }
+}

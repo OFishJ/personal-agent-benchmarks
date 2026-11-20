@@ -1,0 +1,27 @@
+{
+  "driver": {
+    "object": "Drive",
+    "property": "Turns",
+    "unit": "turns"
+  },
+  "instances": {
+    "P01": "P01",
+    "P02L": "P02L",
+    "P02R": "P02R",
+    "P03": "P03",
+    "P04": "P04",
+    "P05": "P05",
+    "P06": "P06",
+    "P07a": "P07a",
+    "P07b": "P07b",
+    "P08L": "P08L",
+    "P08R": "P08R",
+    "P09": "P09",
+    "P10a": "P10a",
+    "P10b": "P10b",
+    "P10c": "P10c",
+    "P10d": "P10d",
+    "P11a": "P11a",
+    "P11b": "P11b"
+  }
+}

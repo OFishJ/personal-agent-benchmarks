@@ -1,0 +1,193 @@
+{
+  "reference_assembly": [
+    {
+      "turns": 0,
+      "saddle_xmin_mm": 36.0,
+      "peg_center_yz_mm": [
+        14.0,
+        34.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 1.25,
+      "saddle_xmin_mm": 41.0,
+      "peg_center_yz_mm": [
+        3.4042751582949046e-15,
+        47.999999999999986
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 5,
+      "saddle_xmin_mm": 56.0,
+      "peg_center_yz_mm": [
+        14.0,
+        34.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 4.5,
+      "saddle_xmin_mm": 54.0,
+      "peg_center_yz_mm": [
+        -14.0,
+        34.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 7.375,
+      "saddle_xmin_mm": 65.5,
+      "peg_center_yz_mm": [
+        -9.899494936611658,
+        43.89949493661169
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 10,
+      "saddle_xmin_mm": 76.0,
+      "peg_center_yz_mm": [
+        14.0,
+        34.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    },
+    {
+      "turns": 0,
+      "saddle_xmin_mm": 36.0,
+      "peg_center_yz_mm": [
+        14.0,
+        34.0
+      ],
+      "non_nominal": {},
+      "interference": []
+    }
+  ],
+  "incoming_measurements": {
+    "P01": {
+      "extra_mm3": 0.0,
+      "missing_mm3": 0.0,
+      "radii_mm": [
+        2.5,
+        3.3
+      ]
+    },
+    "P05": {
+      "extra_mm3": 0.0,
+      "missing_mm3": 0.0,
+      "radii_mm": [
+        6.0,
+        8.0
+      ]
+    },
+    "P07": {
+      "extra_mm3": 1095.1591990414036,
+      "missing_mm3": 0.0,
+      "radii_mm": [
+        4.3
+      ]
+    },
+    "P08": {
+      "extra_mm3": 53.01971366286065,
+      "missing_mm3": 0.0,
+      "radii_mm": [
+        0.75,
+        6.1,
+        8.0,
+        9.0
+      ]
+    }
+  },
+  "received_zero_interference": [
+    {
+      "pair": [
+        "P02L",
+        "P07a"
+      ],
+      "common_mm3": 93.8708
+    },
+    {
+      "pair": [
+        "P02L",
+        "P07b"
+      ],
+      "common_mm3": 93.8708
+    },
+    {
+      "pair": [
+        "P02R",
+        "P07a"
+      ],
+      "common_mm3": 93.8708
+    },
+    {
+      "pair": [
+        "P02R",
+        "P07b"
+      ],
+      "common_mm3": 93.8708
+    },
+    {
+      "pair": [
+        "P03",
+        "P07a"
+      ],
+      "common_mm3": 106.8142
+    },
+    {
+      "pair": [
+        "P03",
+        "P07b"
+      ],
+      "common_mm3": 106.8142
+    }
+  ],
+  "negative_static_saddle": {
+    "zero_non_nominal": {},
+    "at_1_25_turns": {
+      "P03": {
+        "extra_mm3": 6121.6838,
+        "missing_mm3": 6121.6838
+      }
+    }
+  },
+  "modified_saddle_top_hole_centers": [
+    [
+      10.0,
+      -24.0
+    ],
+    [
+      10.0,
+      24.0
+    ],
+    [
+      30.0,
+      -24.0
+    ],
+    [
+      30.0,
+      24.0
+    ]
+  ],
+  "wrong_bush_only": {
+    "travel_mm": [
+      0,
+      40
+    ],
+    "increment_mm": 1,
+    "poses": 41,
+    "volume_clashes": {},
+    "groove_width_measured_mm": 1.0
+  },
+  "nominal_bush_width_mm": 2.0,
+  "received_rod_diameter_mm": 8.6,
+  "note": "All poses are discrete. The shaft and nut use simplified thread envelopes."
+}
