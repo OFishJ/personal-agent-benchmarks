@@ -21,7 +21,7 @@ def invoke(script, *args, stdin=b"", cwd):
 def exchange(root, actions):
     lines = [json.dumps({"tool": tool, "arguments": args}) for tool, args in actions]
     data = ("\n".join(lines) + "\n").encode("utf-8")
-    output = invoke(root / "examiner/blind_exam.py", stdin=data, cwd=root)
+    output = invoke(root / "examiner/blind_exam.py", "--classic", stdin=data, cwd=root)
     opening, *replies = map(json.loads, output.splitlines())
     assert len(opening["messages"]) == 2 and len(opening["tools"]) == 6
     assert len(replies) == len(actions)
@@ -78,6 +78,7 @@ def main():
         print("PASS: fresh opening, material boundary, frozen submission and independent grading")
         print("PASS: jog checkpoint and position, speed, torque on one download")
         print("PASS: jog-only and incorrect encoder-scale submissions rejected")
+        print(invoke(root / "examiner/verify_field.py", cwd=root).strip())
 
 
 if __name__ == "__main__":

@@ -12,13 +12,16 @@ from pathlib import Path
 from types import MappingProxyType
 
 from device import Bench, Project
+from field_device import FieldBench, MAX_RPM, SpeedSetup
 from st_control import Program
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = Path(__file__).with_name("blind_manifest.json")
+FIELD_MANIFEST = Path(__file__).with_name("blind_field_manifest.json")
 STORE = ROOT / "work" / "blind-submissions.sqlite3"
 MODES = ("jog", "position", "speed", "torque")
 EXAM_INPUTS = {f"D{i}" for i in range(20)}
+FIELD_INPUTS = EXAM_INPUTS | {f"D{i}" for i in range(20, 24)}
 MAX_FILE = 65536
 MAX_WORK = 256 * 1024
 
@@ -32,10 +35,9 @@ def virtual_name(name):
     return name
 
 
-def load_packet(candidate_root=None):
-    files = {}
-    root = (candidate_root or ROOT / "candidate").resolve()
-    for name, digest in json.loads(MANIFEST.read_text(encoding="utf-8")).items():
+def sealed_files(root, manifest):
+    root = root.resolve()
+    for name, digest in json.loads(manifest.read_text(encoding="utf-8")).items():
         virtual_name(name)
         path = root / name.removeprefix("work/")
         if path.resolve() != path or not path.is_file():
@@ -43,7 +45,14 @@ def load_packet(candidate_root=None):
         content = path.read_bytes()
         if hashlib.sha256(content).hexdigest() != digest:
             raise RuntimeError("开工材料与封存清单不符")
-        files[name] = content
+        yield name, content
+
+
+def load_packet(candidate_root=None, *, field=False):
+    root = candidate_root or ROOT / "candidate"
+    files = dict(sealed_files(root, MANIFEST))
+    if field:
+        files.update(sealed_files(root / "field", FIELD_MANIFEST))
     return MappingProxyType(files)
 
 
@@ -75,7 +84,7 @@ def persist(payload, store=STORE):
 
 
 class Room:
-    def __init__(self, packet, save=persist):
+    def __init__(self, packet, save=persist, *, field_seed=None, exam_version=None):
         self.packet = packet
         self.jog_checkpoint = None
         self.files = dict(packet)
@@ -85,8 +94,17 @@ class Room:
         self.program = None
         self.marker = 0
         self.calls = 0
-        self.bench = Bench(io.BytesIO(self.files["usb/drive.xml"]),
-                           Project.compile(json.loads(self.files["work/station.json"])))
+        self.field = "现场工位.md" in packet
+        self.exam_version = (4 if self.field else 2) if exam_version is None else exam_version
+        self.field_seed = secrets.randbits(63) if field_seed is None and self.field else field_seed
+        self.inputs = FIELD_INPUTS if self.field else EXAM_INPUTS
+        esi = io.BytesIO(self.files["usb/drive.xml"])
+        startup = json.loads(self.files["work/station.json"])
+        project = Project.compile(startup)
+        if self.field:
+            self.bench = FieldBench(esi, project, SpeedSetup.compile(startup), self.field_seed)
+        else:
+            self.bench = Bench(esi, project)
 
     def opening(self):
         return [{"role":"system", "content":self.files["AGENTS.md"].decode("utf-8")},
@@ -140,10 +158,10 @@ class Room:
         cfg=json.loads(self.files["work/station.json"])
         project=Project.compile(cfg)
         src=self.files["work/main.st"].decode("utf-8-sig")
-        program=Program(src, EXAM_INPUTS)
+        program=Program(src, self.inputs)
         if len(program.code)>256:
             raise ValueError("单次扫描最多支持 256 条语句")
-        self.compiled=(project,src)
+        self.compiled=(project,src,SpeedSetup.compile(cfg) if self.field else None)
         return {"compiled_build":project.build,"instructions":len(program.code)}
 
     def set_input(self, mode, stop, rpm100=None, position_mdeg=None, torque_permille=None, duration_ms=None, start=None):
@@ -158,13 +176,19 @@ class Room:
                    "torque": {"torque_permille", "duration_ms"}}[mode]
         if any(value is not None and key not in allowed for key, value in values.items()):
             raise ValueError("给定与所选模式不符")
-        speed = num(rpm100 if rpm100 is not None else 0, -1000, 1000)
+        limit = 100 * MAX_RPM if self.field and mode == "speed" else 1000
+        speed = num(rpm100 if rpm100 is not None else 0, -limit, limit)
+        if abs(speed) > 1000 and speed % 100:
+            raise ValueError("高速给定以整 rpm 表示")
         position = num(position_mdeg if position_mdeg is not None else 0, -10000, 10000)
         torque = num(torque_permille if torque_permille is not None else 0, -50, 50)
         duration = num(duration_ms if duration_ms is not None else 3000, 500, 6000)
         b = self.bench
-        b.operator_rpm = 0 if mode == "jog" and not pressed and not stop else speed
+        operator_rpm = 0 if abs(speed) > 1000 or (mode == "jog" and not pressed and not stop) else speed
+        b.operator_rpm = operator_rpm
         b.operator_stop = stop
+        if self.field:
+            b.operator_field_rpm = speed // 100 if abs(speed) > 1000 else 0
         b.operator_mode = MODES.index(mode)
         b.operator_position, b.operator_torque = position, torque
         b.operator_duration = (duration + 3) // 4 if mode == "torque" else 0
@@ -209,9 +233,12 @@ class Room:
             if action=="download":
                 if self.compiled is None:
                     raise ValueError("先成功编译工作副本")
-                cfg,src=self.compiled
-                self.bench.download(cfg)
-                self.program=Program(src, EXAM_INPUTS)
+                cfg,src,setup=self.compiled
+                if self.field:
+                    self.bench.download(cfg, setup)
+                else:
+                    self.bench.download(cfg)
+                self.program=Program(src, self.inputs)
                 self.marker=secrets.randbelow(32000)+1
                 return {"loaded_build":cfg.build,"requested_marker":self.marker}
             if action=="reset":
@@ -220,7 +247,10 @@ class Room:
                 self.bench.reset()
             elif action!="observe":
                 raise ValueError("未知设备动作")
-        return {"panel":self.bench.panel(),"shaft":self.bench.observer()}
+        snapshot = {"panel":self.bench.panel(),"shaft":self.bench.observer()}
+        if self.field:
+            snapshot["speed"] = self.bench.diagnostics()
+        return snapshot
 
     def advance(self, count):
         for _ in range(count):
@@ -236,10 +266,18 @@ class Room:
                     b.operator_duration, b.request_id, round(b.applied_torque),
                     -1 if b.drive_mode is None else b.drive_mode, int(b.operator_start),
                 ]
+                if self.field:
+                    registers.extend((b.operator_field_rpm, int(b.protection_latched), b.stop_error,
+                                      -1 if b.drive_sample is None else b.drive_sample[0] & 65535))
                 enable,speed,heart,marker=self.program.scan(registers,self.marker)
                 mem = self.program.mem
                 try:
-                    self.bench.write(enable, speed, heart & 65535, marker & 65535, mem.get("D104", 0),
+                    mode = mem.get("D104", 0)
+                    if self.field and mode == 2 and mem.get("D107", 0):
+                        speed = num(mem["D107"], -MAX_RPM, MAX_RPM) * 100
+                    else:
+                        speed = num(speed, -1000, 1000)
+                    self.bench.write(enable, speed, heart & 65535, marker & 65535, mode,
                                      mem.get("D105", 0), mem.get("D106", 0))
                 except ValueError:
                     self.program=None
@@ -252,7 +290,8 @@ class Room:
         if not isinstance(note,str) or len(note)>4000:
             raise ValueError("交付说明最长 4000 字符")
         work={k:v.decode("utf-8") for k,v in self.files.items() if k.startswith("work/")}
-        result=self.save({"work":work,"note":note,"exam_version":2,"jog_checkpoint":self.jog_checkpoint})
+        result=self.save({"work":work,"note":note,"exam_version":self.exam_version,
+                          "jog_checkpoint":self.jog_checkpoint})
         self.closed=True
         return {"submitted":True,**result}
 

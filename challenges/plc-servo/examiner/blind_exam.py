@@ -114,12 +114,13 @@ if __name__=="__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("--preview",action="store_true",help="查看新考生收到的开场和工具清单")
     parser.add_argument("--show",action="store_true",help="以易读形式预览本场开工内容")
+    parser.add_argument("--classic",action="store_true",help="开考原低速版（判卷第 2 版）")
     parser.add_argument("--local-model",help="指定已运行的本地无状态模型名称")
     parser.add_argument("--port",type=int,default=1234,help="受信任的本机模型端口")
     args=parser.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
     try:
-        room=Room(load_packet())
+        room=Room(load_packet(field=not args.classic))
         if args.show:
             for msg in room.opening():
                 print(msg["content"])

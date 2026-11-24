@@ -48,6 +48,7 @@ class Project:
 class Bench:
     dt = 0.004
     encoder_lines = 262144
+    speed_limit_rpm100 = 1000
     speed_ramp = 50.0  # rpm/s, assumed for low-speed exercises
 
     def __init__(self, esi, startup):
@@ -104,7 +105,7 @@ class Bench:
 
     def write(self, enabled, rpm100, heartbeat, marker, mode=0, position=0, torque=0):
         integer(enabled, 0, 1)
-        integer(rpm100, -1000, 1000)
+        integer(rpm100, -self.speed_limit_rpm100, self.speed_limit_rpm100)
         integer(heartbeat, 0, 65535)
         integer(marker, 0, 65535)
         integer(mode, 0, 3)

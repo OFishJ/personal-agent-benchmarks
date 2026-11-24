@@ -56,10 +56,10 @@ def run_jog(room, marker, rng):
     return group(cases)
 
 
-def run_position(room, marker, rng):
+def run_position(room, marker, rng, *, low_mdeg=1100, high_mdeg=9500):
     cases = []
     for sign in (1, -1):
-        command = sign * rng.randint(1100, 9500)
+        command = sign * rng.randint(low_mdeg, high_mdeg)
         before = input_motion(room, "position", position_mdeg=command)["shaft"]["shaft_degrees"]
         moving = advance(room, 20)
         input_motion(room, "position", position_mdeg=command, start=False)
